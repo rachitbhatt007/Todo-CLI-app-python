@@ -69,4 +69,7 @@ class Database:
     def incompleteItems(self):
         self.mycur.execute(f"select * from todoitems where status = '{'INCOMPLETE'}'") 
         result = self.mycur.fetchall()
-        return result       
+        return result  
+
+    def alignedItems(self):
+        pass

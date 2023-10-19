@@ -2,6 +2,8 @@ from db import Database
 from argparse import ArgumentParser 
 from datetime import date,datetime
 
+# showTodoList method can be changed to noshowTODOList
+
 class TodoList():
     def __init__(self):
         self.db=Database()

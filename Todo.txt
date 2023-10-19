@@ -1,0 +1,6 @@
+Can be run in any environement.
+Just run python main.py
+
+
+##EXCLUSIVE TIP
+To run java application, use javac app.java
